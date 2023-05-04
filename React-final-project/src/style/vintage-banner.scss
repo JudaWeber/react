@@ -1,0 +1,56 @@
+// @font-face {
+//   font-family: "MyVintageFont";
+//   src: url("../../public/fonts/H4VintageRetro.ttf") format("woff2"),
+//     url("../../public/fonts/H4VintageRetro.ttf") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+.vintage-banner {
+  margin-top: 5rem;
+  height: 33rem;
+  position: relative;
+}
+
+.vintage-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+}
+
+.vintage-banner .vintage-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.vintage-banner h1 {
+  font-family: MyVintageFont;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.vintage-banner p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.vintage-banner .button {
+  // font-family: MyVintageFont;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(78, 121, 167);
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    background: linear-gradient(to bottom, #5980b3 5%, #8aa5d5 100%);
+  }
+}

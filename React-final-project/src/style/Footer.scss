@@ -1,0 +1,70 @@
+// @font-face {
+//   font-family: "MyVintageFont";
+//   src: url("../../public/fonts/H4VintageRetro.ttf") format("woff2"),
+//     url("../../public/fonts/H4VintageRetro.ttf") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+.footer {
+  margin-top: 5rem;
+  background-color: #202020;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+
+  &__title {
+    // font-family: MyVintageFont;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  &__social-link {
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 1rem;
+  }
+
+  &__nav {
+    margin-top: 1rem;
+  }
+
+  &__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__nav-item {
+    margin: 0 1rem;
+  }
+
+  &__nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  &__nav-link:hover {
+    text-decoration: underline;
+  }
+
+  &__copyright {
+    margin-top: 2rem;
+  }
+}

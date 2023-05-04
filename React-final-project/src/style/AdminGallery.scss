@@ -1,0 +1,15 @@
+.my-card {
+  cursor: pointer;
+  position: relative;
+}
+
+.my-gallery {
+  height: 100%;
+  object-fit: cover;
+  object-fit: contain;
+}
+
+.scroll-box {
+  height: 2px;
+  overflow: scroll;
+}

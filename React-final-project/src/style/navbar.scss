@@ -1,0 +1,29 @@
+.my-navbar {
+  font-weight: 900;
+  width: 100%;
+  background-color: rgba(69, 80, 139, 0.8);
+  border-radius: 0.5rem;
+}
+.my-toggler {
+  background-color: #663d09;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.my-logo-font {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.button-div {
+  @media (min-width: 768px) {
+    position: absolute;
+    right: 1rem;
+    bottom: 0.6rem;
+  }
+}

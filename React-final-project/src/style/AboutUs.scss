@@ -1,0 +1,15 @@
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
